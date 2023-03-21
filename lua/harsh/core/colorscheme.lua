@@ -1,0 +1,24 @@
+-- local status, onedark = pcall(require, "onedark")
+-- if not status then
+-- 	return
+-- end
+
+-- onedark.setup({
+-- 	style = "darker",
+-- 	colors = {
+-- 		-- bg0 = "#212022",
+-- 		-- fg = "#e9ecef",
+-- 		-- blue = "#829fe1",
+-- 		-- purple = "#c77dff",
+-- 		-- green = "#06d6a0",
+-- 		-- orange = "#f78c6b",
+-- 		-- yellow = "#ffd166",
+-- 		-- cyan = "#48cae4",
+-- 		-- red = "#ef476f",
+-- 	}, -- Override default colors
+-- })
+--
+-- onedark.load()
+--
+-- vim.cmd("highlight VertSplit guifg=#1e232a")
+vim.cmd("highlight VertSplit guifg=#212121") -- material
